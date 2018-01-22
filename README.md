@@ -1,5 +1,5 @@
 ## Assumptions
-- Location dataset has been downloaded and unzipped in local project directory under: data/location-data-sample
+- Location dataset has been downloaded and unzipped in local project directory under: data/location-data-sample (not added to git due to the size)
 - Locations of (lat,lng): (0.0, 0.0) are filtered out as I'm assuming they represent null/unknown locations
 - Based on my very brief research (Google searching), geohashes with a common prefix of 7 digits, indicate the locations are within ~100m of each other. I will use this to determine the clusters of people close together.
 
